@@ -112,7 +112,7 @@ CPU < 10% on mid-range laptops at 16 kHz mono.
 
 ## 📜 License
 
-MIT — see LICENSE.
+MIT
 
 ## 🙌 Acknowledgements
 
