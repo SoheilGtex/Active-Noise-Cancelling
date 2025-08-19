@@ -28,7 +28,7 @@ cd active-noise-cancelling
 python -m venv .venv && source .venv/bin/activate  # (Linux/macOS)
 # .venv\Scripts\activate                            # (Windows)
 pip install -r requirements.txt
-
+```
 ## Dependencies
 
 sounddevice (PortAudio binding)
@@ -47,7 +47,7 @@ macOS: grant microphone permission to the terminal/IDE.
 
 Quick start (defaults are fine):
 
-python main.py
+```python main.py```
 
 
 Useful options
