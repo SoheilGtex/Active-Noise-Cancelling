@@ -1,0 +1,10 @@
+samplerate: 16000
+frame_ms: 20
+calib_sec: 1.0
+highpass_hz: 80
+noise_beta: 1.0
+noise_floor: 0.02
+ema_alpha: 0.96        # noise tracking (closer to 1.0 = slower)
+gain_smooth: 0.8       # temporal smoothing of spectral gain
+device_in: default
+device_out: default
