@@ -104,7 +104,7 @@ gain_smooth: 0.8
 device_in: default
 device_out: default
 
-🧪 Benchmark notes
+## 🧪 Benchmark notes
 
 Latency ≈ frame_ms (20 ms) because hop is 10 ms and OLA buffering is 1 frame.
 
