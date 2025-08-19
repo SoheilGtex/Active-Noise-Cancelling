@@ -122,11 +122,3 @@ Classic spectral subtraction literature and Wiener filtering techniques for sing
 
 
 ---
-
-## 2) `requirements.txt`
-
-```txt
-sounddevice>=0.4.6
-numpy>=1.24
-scipy>=1.10
-pyyaml>=6.0
