@@ -29,7 +29,7 @@ python -m venv .venv && source .venv/bin/activate  # (Linux/macOS)
 # .venv\Scripts\activate                            # (Windows)
 pip install -r requirements.txt
 
-Dependencies
+## Dependencies
 
 sounddevice (PortAudio binding)
 
@@ -43,7 +43,7 @@ Windows: if PortAudio devices are not listed, update your audio drivers or insta
 Linux: ensure your user is in audio group and PulseAudio/PipeWire is running.
 macOS: grant microphone permission to the terminal/IDE.
 
-▶️ Run
+##  ▶️ Run
 
 Quick start (defaults are fine):
 
@@ -71,7 +71,7 @@ python main.py \
 
 Press Ctrl+C to stop.
 
-⚙️ How it works (DSP)
+## ⚙️ How it works (DSP)
 
 Framing & Windowing
 Signal is split into frames (e.g., 20 ms) with 50% overlap and Hann analysis/synthesis windows (perfect reconstruction with OLA).
@@ -89,7 +89,7 @@ Optional IIR HPF removes rumble.
 OLA Synthesis
 Inverse FFT → window → overlap-add. The output chunk each hop is sent to the soundcard with minimal latency.
 
-📁 Config
+## 📁 Config
 
 config.yaml (optional; args override file):
 
@@ -110,11 +110,11 @@ Latency ≈ frame_ms (20 ms) because hop is 10 ms and OLA buffering is 1 frame.
 
 CPU < 10% on mid-range laptops at 16 kHz mono.
 
-📜 License
+## 📜 License
 
 MIT — see LICENSE.
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 
 sounddevice (PortAudio) for reliable cross-platform I/O.
 
